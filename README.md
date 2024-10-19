@@ -69,7 +69,7 @@ ____
 
 ## How to run the project? 
 
-- If you want to run the tests, i've made write in the console `go test`
+- If you want to run the tests I've made, write in the console `go test`
 ____
 
 - You can also edit and run the main.go file
