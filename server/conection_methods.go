@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+// Checks that the conection wasn't timed out or ha too many operations
 func (s_c server_conection) CheckConection() (bool, error) {
 	// Creating a date that if the max time of the conection
 	nano_allowed := s_c.server_data.allowed_time * 1000000 * 1000
